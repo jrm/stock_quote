@@ -25,6 +25,8 @@ class String
     else
       self
     end
+  rescue
+    self
   end
 end
 class Array
